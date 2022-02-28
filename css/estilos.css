@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* INICIO */
+
+.nav-img{
+    width: 110px;
+    position: relative;
+    left: 48px;
+    top: 10px;
+    
+   
+}
+
+.nav-item{
+    position: relative;
+    left: 80%;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+.contenedor-header{
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+#navbarNav ul li a:hover{
+    color: #FFFC88;
+ }
+
+.subtitulo{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 8%;
+    margin-left: 5%;
+
+}
+
+.ver-video{
+
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+
+.ver-video-1{
+    text-decoration: none;
+    color: black;
+}
+
+.ver-video-1:hover{
+    color: red;
+}
+/* FIN  INICIO */
+
+
+
+/* COMIENZO DE MENU */
+
+.title-menu{
+    color: white;
+    margin-left: 7%;
+    position: relative;
+    top: 50%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 70px;
+    margin-top: 30%;
+    
+    
+}
+.card-text{
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card{
+    background-color: black  ;
+    margin: 15px;
+
+}
+
+
+/* NOSOTROS*/
+
+.nosotros{
+    display: flex;
+}
+.img-nosotros{
+    margin: 20px;
+    width: 250px;
+    margin-left: 40%;
+}
+
+.p-nosotros{
+    color: white;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.title-nosotros{
+    color: white;
+    margin-left: 8%;
+    margin-bottom: 4%;
+}
+
+/* CONTACTO*/
+
+.formu{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor{
+    background-image: url(../img/CONTACTO.jpg);
+    background-size: cover;
+    height: 100%px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*  MEDIA 1 */
+@media (max-width: 991px) {
+   .navbar-nav{
+       margin-right: 120%;
+       
+   }
+    .nav-img{
+        display: none;
+    }
+    
+    .contenedor-header{
+        background-image: url(../img/portada2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-top: 50%;
+    }
+    
+    .title-menu{
+        margin-top: 20%;
+    }
+
+
+   .ver-video{
+       display: none;
+   }
+    
+    
+
+
+}
+
+
+/*  MEDIA 2 */
+@media (max-width: 711px) {
+ 
+    
+    .contenedor-header{
+        background-image: url(../img/portada2.jpg);
+        height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .subtitulo{
+        display: none;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        margin-top: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-menu{
+        padding: 20px;
+        margin-left: 20%;
+        position: absolute;
+      
+       
+        
+
+}
+
+   .ver-video{
+       display: none;
+   }
+    
+   .nosotros{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    justify-content: center;
+    align-items: center;
+   } 
+
+   .img-nosotros{
+       position: relative;
+       right: 30%;
+   }
+   .p-nosotros{
+       width: 70%;
+       position: relative;
+       right: 10%;
+   }
+
+}
+
+/*  MEDIA 3 */
+@media (max-width: 620px) {
+  
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        margin-top: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-menu{
+        padding: 50px;
+        margin-left: 20%;
+        position: absolute;
+      
+       
+        
+
+}
+   
+
+}
+
+@media (max-width: 552px) {
+  
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        margin-top: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-menu{
+        padding: 70px;
+        margin-left: 20%;
+        position: absolute;
+      
+       
+        
+
+}
+   
+
+}
+
+@media (max-width: 488px) {
+  
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        margin-top: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-menu{
+        padding: 90px;
+        margin-left: 20%;
+        position: absolute;
+      
+       
+        
+
+}
+   
+
+}
+
+@media (max-width: 430px) {
+  
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        margin-top: 130%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-menu{
+       
+        padding: 90px;
+        margin-left: 20%;
+        position: absolute;
+        
+
+}
+
+   
+
+}
+
+@media (max-width: 375px) {
+  
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        margin-top: 145%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-menu{
+       
+        padding: 90px;
+        margin-left: 20%;
+        position: absolute;
+        
+
+}
+
+   
+
+}
